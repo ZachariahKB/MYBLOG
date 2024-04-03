@@ -4,23 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Blog - Blog</title>
+    <!-- Linking the CSS file for styling -->
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
     <div class="container">
         <header>
+            <!-- Title of the blog -->
             <h1>Personal Blog - Blog</h1>
+            <!-- Container for the theme toggle switch -->
             <div class="toggle-container">
+                <!-- Toggle switch for light/dark theme -->
                 <label class="switch">
+                    <!-- Input checkbox element for toggling -->
                     <input id="blogForm" type="checkbox">
+                    <!-- Slider element for visual representation of toggle state -->
                     <span class="slider round"></span>
                 </label>
             </div>
+            <!-- Link to navigate back to the index.html (blog creation) page -->
             <a href="index.html" class="back-button">Back</a>
         </header>
+        <!-- Container to display list of blog posts -->
         <div id="postsList"></div>
     </div>
 
+    <!-- Linking the JavaScript file for blog functionality -->
     <script src="assets/js/blog.js"></script>
 </body>
 </html>
